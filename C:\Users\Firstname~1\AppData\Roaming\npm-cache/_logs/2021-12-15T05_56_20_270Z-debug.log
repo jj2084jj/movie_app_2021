@@ -1,0 +1,38 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'run', 'deploy' ]
+2 info using npm@6.14.11
+3 info using node@v14.15.5
+4 verbose run-script [ 'predeploy', 'deploy', 'postdeploy' ]
+5 info lifecycle movie_app_2021@0.1.0~predeploy: movie_app_2021@0.1.0
+6 verbose lifecycle movie_app_2021@0.1.0~predeploy: unsafe-perm in lifecycle true
+7 verbose lifecycle movie_app_2021@0.1.0~predeploy: PATH: /usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/whdms3368/Desktop/joeun-react/nomad/movie_app_2021/node_modules/.bin:/usr/local/opt/php@7.4/sbin:/usr/local/opt/php@7.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/opt/php@7.4/sbin:/usr/local/opt/php@7.4/bin
+8 verbose lifecycle movie_app_2021@0.1.0~predeploy: CWD: /Users/whdms3368/Desktop/joeun-react/nomad/movie_app_2021
+9 silly lifecycle movie_app_2021@0.1.0~predeploy: Args: [ '-c', 'npm run build' ]
+10 silly lifecycle movie_app_2021@0.1.0~predeploy: Returned: code: 0  signal: null
+11 info lifecycle movie_app_2021@0.1.0~deploy: movie_app_2021@0.1.0
+12 verbose lifecycle movie_app_2021@0.1.0~deploy: unsafe-perm in lifecycle true
+13 verbose lifecycle movie_app_2021@0.1.0~deploy: PATH: /usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/whdms3368/Desktop/joeun-react/nomad/movie_app_2021/node_modules/.bin:/usr/local/opt/php@7.4/sbin:/usr/local/opt/php@7.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/opt/php@7.4/sbin:/usr/local/opt/php@7.4/bin
+14 verbose lifecycle movie_app_2021@0.1.0~deploy: CWD: /Users/whdms3368/Desktop/joeun-react/nomad/movie_app_2021
+15 silly lifecycle movie_app_2021@0.1.0~deploy: Args: [ '-c', 'gh-pages -d build' ]
+16 info lifecycle movie_app_2021@0.1.0~deploy: Failed to exec deploy script
+17 verbose stack Error: movie_app_2021@0.1.0 deploy: `gh-pages -d build`
+17 verbose stack spawn ENOENT
+17 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:48:18)
+17 verbose stack     at ChildProcess.emit (events.js:315:20)
+17 verbose stack     at maybeClose (internal/child_process.js:1048:16)
+17 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+18 verbose pkgid movie_app_2021@0.1.0
+19 verbose cwd /Users/whdms3368/Desktop/joeun-react/nomad/movie_app_2021
+20 verbose Darwin 20.3.0
+21 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "deploy"
+22 verbose node v14.15.5
+23 verbose npm  v6.14.11
+24 error code ELIFECYCLE
+25 error syscall spawn
+26 error file sh
+27 error errno ENOENT
+28 error movie_app_2021@0.1.0 deploy: `gh-pages -d build`
+28 error spawn ENOENT
+29 error Failed at the movie_app_2021@0.1.0 deploy script.
+29 error This is probably not a problem with npm. There is likely additional logging output above.
+30 verbose exit [ 1, true ]
